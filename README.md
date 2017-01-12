@@ -5,4 +5,6 @@ bower install
 ##
 grunt
 ##
+grunt serve
+##
 grunt test
