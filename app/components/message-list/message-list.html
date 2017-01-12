@@ -1,0 +1,19 @@
+<!--<ul class="message-list collection">-->
+  <!--<li class="collection-item message-item avatar" ng-repeat="message in messages track by message.uuid">-->
+    <!--<message-item id="{{message.uuid}}" content="{{message.content}}" sender-uuid="{{message.sender_uuid}}" date="{{message.date}}"></message-item>-->
+  <!--</li>-->
+<!--</ul>-->
+<div class="content">
+  <div class="row">
+    <div id="site-layout-example-left" class="col s6 message-list collection">
+        <div class="collection-item message-item avatar" ng-repeat="message in messages track by message.uuid">
+          <message-item id="{{message.uuid}}" content="{{message.content}}" sender-uuid="{{message.sender_uuid}}" date="{{message.date}}"></message-item>
+        </div>
+    </div>
+    <div id="site-layout-example-right" class="col s6">
+      <div class="container"><h1>Users location</h1></div>
+      <div id="map-canvas" style="height: 40em;margin: 0px;padding: 0px"></div>
+
+    </div>
+  </div>
+</div>
